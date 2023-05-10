@@ -7,6 +7,7 @@ export default defineConfig({
     alias: [
       { find: "Assets", replacement: "/src/assets" },
       { find: "Components", replacement: "/src/UI/components" },
+      { find: "Shared", replacement: "/src/shared" },
     ],
   },
 
@@ -14,12 +15,18 @@ export default defineConfig({
     react(),
     VitePWA({
       injectRegister: "auto",
+      devOptions: {
+        enabled: true,
+      },
       includeAssets: [
         "pwa_resources/favicon.ico",
         "pwa_resources/apple-touch-icon.png",
         "pwa_resources/masked-icon.svg",
       ],
       manifest: {
+        name: "Active Zone",
+        short_name: "Az",
+        background_color: "#FFD700",
         theme_color: "#FFD700",
         icons: [
           {

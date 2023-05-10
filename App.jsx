@@ -1,7 +1,5 @@
 import Application from "./src/UI/Application";
 
-function App() {
-  return <Application />;
-}
+const App = () => <Application />;
 
 export default App;
