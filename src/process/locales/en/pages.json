@@ -1,0 +1,12 @@
+{
+  "landing": {
+    "choosePath": "Choose your path and let's get fit together!",
+    "motto": "Empower your body, ignite your soul, and transcend your limits.",
+    "question": "Are you here to help others reach their goals while you grow your business, or looking for a fitness guru to help you on your journey?",
+    "welcome": "Welcome to MFT!",
+    "choices": {
+      "helpOthers": "Help Others",
+      "getInShape": "Get In Shape"
+    }
+  }
+}
