@@ -27,7 +27,8 @@ export default defineConfig({
       },
       includeAssets: ["**/*.{png}"],
       manifest: {
-        start_url: "/index.html",
+        scope: ".",
+        start_url: "/",
         name: "Active Zone",
         short_name: "Az",
         background_color: "#FFD700",
