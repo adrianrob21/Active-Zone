@@ -25,11 +25,6 @@ export default defineConfig({
       devOptions: {
         enabled: true,
       },
-      includeAssets: [
-        "pwa_resources/favicon.ico",
-        "pwa_resources/apple-touch-icon.png",
-        "pwa_resources/masked-icon.svg",
-      ],
       manifest: {
         start_url: "index.html",
         name: "Active Zone",
