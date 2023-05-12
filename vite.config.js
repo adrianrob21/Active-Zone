@@ -5,12 +5,19 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   resolve: {
     alias: [
+      { find: "Api", replacement: "/src/process/api" },
       { find: "Assets", replacement: "/src/assets" },
       { find: "Components", replacement: "/src/UI/components" },
+      { find: "Helpers", replacement: "/src/helpers" },
+      { find: "Locales", replacement: "/src/process/locales" },
+      { find: "Reducers", replacement: "/src/process/redux/reducers" },
+      { find: "Redux", replacement: "/src/process/redux" },
       { find: "Shared", replacement: "/src/shared" },
     ],
   },
-
+  define: {
+    global: {},
+  },
   plugins: [
     react(),
     VitePWA({

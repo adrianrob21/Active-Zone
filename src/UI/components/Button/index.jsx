@@ -1,7 +1,9 @@
 import React from "react";
 
-const Button = () => {
-  return <button>Hello Merge </button>;
+import { mock } from "Helpers";
+
+const Button = ({ label = "", onClick = mock }) => {
+  return <button onClick={onClick}>{label}</button>;
 };
 
 export default Button;
