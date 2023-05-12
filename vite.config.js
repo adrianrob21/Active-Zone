@@ -31,6 +31,7 @@ export default defineConfig({
         "pwa_resources/masked-icon.svg",
       ],
       manifest: {
+        start_url: "index.html",
         name: "Active Zone",
         short_name: "Az",
         background_color: "#FFD700",
