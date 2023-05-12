@@ -25,6 +25,7 @@ export default defineConfig({
       devOptions: {
         enabled: true,
       },
+      includeAssets: ["**/*.{png}"],
       manifest: {
         start_url: "index.html",
         name: "Active Zone",
@@ -33,22 +34,22 @@ export default defineConfig({
         theme_color: "#FFD700",
         icons: [
           {
-            src: "pwa_resources/pwa-192x192.png",
+            src: "public/pwa-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "pwa_resources/pwa-256x256.png",
+            src: "public/pwa-256x256.png",
             sizes: "256x256",
             type: "image/png",
           },
           {
-            src: "pwa_resources/pwa-512x512.png",
+            src: "public/pwa-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "pwa_resources/pwa-256x256.png",
+            src: "public/pwa-256x256.png",
             sizes: "256x256",
             type: "image/png",
             purpose: "any maskable",
