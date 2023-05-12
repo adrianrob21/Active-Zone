@@ -1,6 +1,6 @@
 {
   "name": "Active Zone",
-  "start_url": "index.html",
+  "start_url": "/index.html",
   "short_name": "Az",
   "background_color": "#FFD700",
   "theme_color": "#FFD700",
