@@ -10,6 +10,7 @@ export default defineConfig({
       { find: "Components", replacement: "/src/UI/components" },
       { find: "Helpers", replacement: "/src/helpers" },
       { find: "Locales", replacement: "/src/process/locales" },
+      { find: "Pages", replacement: "/src/UI/pages" },
       { find: "Reducers", replacement: "/src/process/redux/reducers" },
       { find: "Redux", replacement: "/src/process/redux" },
       { find: "Shared", replacement: "/src/shared" },
