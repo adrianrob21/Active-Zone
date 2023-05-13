@@ -15,18 +15,20 @@ const Application = () => {
 
   return (
     <>
-      <input
-        placeholder="Email"
-        onChange={handleOnChange.bind(null, setEmail)}
-      />
-      <input
-        placeholder="Password"
-        onChange={handleOnChange.bind(null, setPassword)}
-      />
-      <Button
-        label={I18n.t("general:login")}
-        onClick={createUser.bind(null, email, password)}
-      />
+      <>
+        <input
+          placeholder="Email"
+          onChange={handleOnChange.bind(null, setEmail)}
+        />
+        <input
+          placeholder="Password"
+          onChange={handleOnChange.bind(null, setPassword)}
+        />
+        <Button
+          label={I18n.t("general:login")}
+          onClick={createUser.bind(null, email, password)}
+        />
+      </>
     </>
   );
 };
