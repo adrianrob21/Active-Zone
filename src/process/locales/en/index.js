@@ -1,8 +1,8 @@
 import pages from "./pages.json";
-import general from "./general.json";
+import navBar from "./navBar.json";
 
 const en = {
-  general,
+  navBar,
   pages,
 };
 
